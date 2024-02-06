@@ -23,7 +23,9 @@ The following steps are from the suggested protocol in Jinfeng's email.
 Step1, Run RelocaTE2 to detect mPing, Ping, Pong insertion, respectively. The results are in three different folder.
 
 python ReNameSRA_RelocaTEi_mPing.py --input fastq --repeat /rhome/cjinfeng/BigData/00.RD/RelocaTE_i/Simulation/Reference/mping.fa > log 2>&1  
+
 python ReNameSRA_RelocaTEi_mPing.py --input fastq --repeat /rhome/cjinfeng/BigData/00.RD/RelocaTE_i/Simulation/Reference/ping.fa > log 2>&1  
+
 python ReNameSRA_RelocaTEi_mPing.py --input fastq --repeat /rhome/cjinfeng/BigData/00.RD/RelocaTE_i/Simulation/Reference/pong.fa > log 2>&1  
 
 ### Step2
@@ -31,19 +33,23 @@ python ReNameSRA_RelocaTEi_mPing.py --input fastq --repeat /rhome/cjinfeng/BigDa
 Step2, Run scripts to identify Ping, Pong, and mPing sequentially based on RelocaTE2 results folders generated above.
 
 python ReNameSRA_sum_Ping.py --input fastq_Ping  
+
 python ReNameSRA_sum_Pong.py --input fastq_Pong  
+
 python ReNameSRA_sum_mPing.py --input fastq_mPing  
 
 ### Step3
 
 Step3, Map mPing/Ping/Pong reads back to mPing/Ping/Pong elements and summary relative depth of mPing/Ping/Pong to actin or some other CONTROL regions.  
+
 This will give you an estimate of mPing/Ping/Pong copy numbers. I did not find the commend how I generate the mpileup file.  
 But the idea is to use RelocaTE2 clipped reads that only matched to mPing/Ping/Pong elements to mapped back to mPing/Ping/Pong elements.  
 This gives you accurate alignments than mapping raw reads. 
 
-
 python Rice3k_copy_number_depth_window_mPing.py --input Rice3k_3000_RelocaTEi_mPing_NM2 --depth ping_coverage_3k.bam.summary
+
 python Rice3k_copy_number_depth_window_Ping.py --input Rice3k_3000_RelocaTEi_Ping_NM2 --depth ping_coverage_3k.bam.summary
+
 python Rice3k_copy_number_depth_window_Ping.py --input Rice3k_3000_RelocaTEi_Pong_NM2 --depth ping_coverage_3k.bam.summary
 
 ## Testing
