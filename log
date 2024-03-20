@@ -1,0 +1,8 @@
+/bigdata/wesslerlab/shared/Rice/Nathan/rice/github_wip/find_ping_pong_JinfengPipeline/element_sim_fastq/Chr4_element_sim_20x_1.fastq
+fastq
+/bigdata/wesslerlab/shared/Rice/Nathan/rice/github_wip/find_ping_pong_JinfengPipeline/element_sim_fastq/Chr4_element_sim_20x_2.fastq
+fastq
+('Creating output directory:', '/bigdata/wesslerlab/shared/Rice/Nathan/rice/github_wip/find_ping_pong_JinfengPipeline/element_sim_fastq_RelocaTEi/Chr4_element_sim_20x_1.fastq_RelocaTEi')
+('Shell command:', 'bash /bigdata/wesslerlab/shared/Rice/Nathan/rice/github_wip/find_ping_pong_JinfengPipeline/element_sim_fastq_RelocaTEi/Chr4_element_sim_20x_1.fastq_RelocaTEi/run_these_jobs.sh > /bigdata/wesslerlab/shared/Rice/Nathan/rice/github_wip/find_ping_pong_JinfengPipeline/element_sim_fastq_RelocaTEi/Chr4_element_sim_20x_1.fastq_RelocaTEi/run.log 2> /bigdata/wesslerlab/shared/Rice/Nathan/rice/github_wip/find_ping_pong_JinfengPipeline/element_sim_fastq_RelocaTEi/Chr4_element_sim_20x_1.fastq_RelocaTEi/run.log2')
+('Creating output directory:', '/bigdata/wesslerlab/shared/Rice/Nathan/rice/github_wip/find_ping_pong_JinfengPipeline/element_sim_fastq_RelocaTEi/Chr4_element_sim_20x_2.fastq_RelocaTEi')
+('Shell command:', 'bash /bigdata/wesslerlab/shared/Rice/Nathan/rice/github_wip/find_ping_pong_JinfengPipeline/element_sim_fastq_RelocaTEi/Chr4_element_sim_20x_2.fastq_RelocaTEi/run_these_jobs.sh > /bigdata/wesslerlab/shared/Rice/Nathan/rice/github_wip/find_ping_pong_JinfengPipeline/element_sim_fastq_RelocaTEi/Chr4_element_sim_20x_2.fastq_RelocaTEi/run.log 2> /bigdata/wesslerlab/shared/Rice/Nathan/rice/github_wip/find_ping_pong_JinfengPipeline/element_sim_fastq_RelocaTEi/Chr4_element_sim_20x_2.fastq_RelocaTEi/run.log2')

@@ -1,0 +1,2 @@
+sh /bigdata/wesslerlab/shared/Rice/Nathan/rice/github_wip/find_ping_pong_JinfengPipeline/element_sim_fastq_RelocaTEi/Chr4_element_sim_20x_1.fastq_RelocaTEi/shellscripts/step_4/step_4.Chr4.repeat.align.sh
+sh /bigdata/wesslerlab/shared/Rice/Nathan/rice/github_wip/find_ping_pong_JinfengPipeline/element_sim_fastq_RelocaTEi/Chr4_element_sim_20x_1.fastq_RelocaTEi/shellscripts/step_5/0.repeat.findSites.sh
